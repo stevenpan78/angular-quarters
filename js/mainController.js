@@ -1,0 +1,1 @@
+function func1(n){n.one="car"}function func2(n){n.two="boat"}function func3(n){n.three="yarn"}function func4(n){n.$parent.four="skyscraper"}func1.$inject=["$scope"],func2.$inject=["$scope"],func3.$inject=["$scope"],func4.$inject=["$scope"],angular.module("mainApp").controller("OneCtrl",func1).controller("TwoCtrl",func2).controller("ThreeCtrl",func3).controller("FourCtrl",func4);
